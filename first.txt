@@ -3,3 +3,4 @@ this first text file
 git remote rename origin neworigin
 git remote add origin git@github.com:yyogesh/git_2024_1.git
 git remote remove origin
+git push origin master
