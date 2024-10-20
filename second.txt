@@ -1,3 +1,31 @@
 second file created
 
 git push -u origin master
+
+Related Commands:
+1.git init
+Initializes a new Git repository in your project folder.
+2.git clone <repository-url>
+Creates a local copy of a remote repository.
+3.git add .
+Stages all the modified or new files for the next commit.
+4.git commit -m "message"
+Commits the staged changes with a descriptive message.
+5.git pull origin master
+Fetches and merges changes from the origin remote's master branch into your current branch.
+6.git fetch origin
+Fetches the changes from the origin remote without merging them into your local branch.
+7.git branch -a
+Lists all branches, both local and remote.
+8.git checkout master
+Switches to the master branch.
+9.git push origin master
+Pushes changes to the master branch of the origin remote without setting it as upstream (unlike the -u option).
+10.git status
+Shows the status of your working directory and staging area.
+11.git log
+Shows the commit history for the current branch.
+12.git remote -v
+Lists the remote repositories linked to your local repository.
+13.git push -u origin main
+Same as git push -u origin master, but for the main branch, which is the new default branch in many modern repositories
